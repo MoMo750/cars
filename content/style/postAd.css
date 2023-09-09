@@ -1,0 +1,215 @@
+.main_postAd{
+    background-color: #f9f9f9;
+}
+.main_postAd .container{
+    margin: auto;
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 0 15px;
+    position: relative;
+}
+.main_postAd .container .postad-tittle{
+    position: sticky;
+    top: 10em;
+    z-index: 1000;
+    transition: all .2s ease-in-out;
+    background-color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 1px 2px 0 #0000003d;
+    padding: 1.8rem 1rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    text-align: center;
+}
+.main_postAd .container .postad-tittle h4{
+    text-align: center;
+    color: var(--sec-color);
+}
+.main_postAd .container .postad-tittle h4{
+    font-size: 14px;
+}
+.main_postAd .container .postad-tittle .stepper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 10px;
+}
+.main_postAd .container .postad-tittle .stepper .right{
+    font-size: 1.5rem;
+    color: #555;
+}
+.main_postAd .container .postad-tittle .stepper .active{
+    color: #1d46a8;
+}
+.main_postAd .container .postad-tittle .stepper .step{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.main_postAd .container .postad-tittle .stepper .step .step-icon{
+    border: 1px solid #999;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+.main_postAd .container .postad-tittle .stepper .step .sep-icon-current{
+    background-color: #4b77e0;
+    border: 1px solid #1d46a8;
+    position: relative;
+}
+.main_postAd .container .postad-tittle .stepper .step .sep-icon-current::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+section{
+    margin: 3.5rem 0 1.5rem;
+}
+section label{
+    font-size: 1.2rem;
+}
+.Car__status .stats-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+}
+.Car__status .stats-box h3{
+    width: 49%;
+    text-align: center;
+    background-color: #fff;
+    padding: .7rem 0;
+    cursor: pointer;
+    border-radius: .3rem;
+    font-size: 18px;
+    user-select: none;
+}
+.Car__status .stats-box h3.active{
+    background-color: #4b77e0;
+    color: #fff;
+}
+section .p-dropdown{
+    margin-top: 1.5rem;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid transparent;
+    transition: all .4s;
+}
+.input-dropdown{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+section .p-dropdown input{
+    transform: scale(0);
+}
+
+section .p-dropdown span{
+    cursor: pointer;
+    display: block;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 1%;
+    font-size: 1.3rem;
+    margin: 0.25rem 0.5rem;
+    padding: 0!important;
+    height: 2.5rem;
+    display: flex!important;
+    align-items: center;
+    user-select: none;
+}
+section .p-dropdown:hover{
+    border: 1px solid var(--main-color);
+}
+section .p-dropdown i{
+    background: #0000;
+    color: #6c757d;
+    width: 2.357rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+.Car__status .Fueltype-content{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.Car__status .Fueltype-content h4{
+    padding:1.2rem .5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.Shape-content{
+    margin-top: 1.5rem;
+}
+.Shape-content .shape{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.Shape-content .shape .shape-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    padding: .2rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+    user-select: none;
+}
+.Shape-content .shape .shape-box img{
+    width: 4.8rem;
+    height: 4.8rem;
+    object-fit: contain;
+}
+.stats-box .input-info {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+}
+.stats-box .input-info input{
+    position: relative;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    height: 100%;
+    padding: .6rem;
+}
+.stats-box .input-info span{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    FONT-SIZE: .8rem;
+}

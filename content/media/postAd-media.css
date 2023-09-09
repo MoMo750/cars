@@ -1,0 +1,14 @@
+@media (min-width:331px) and (max-width:1200px){
+    .main_postAd{
+        margin-top: 5rem;
+    }
+    .main_postAd_container{
+        width: auto;
+    }
+    .main_postAd_container .postad-tittle{
+        top: 3rem;
+    }
+    .main_postAd .container .Shape-content .shape{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

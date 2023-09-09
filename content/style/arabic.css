@@ -1,0 +1,43 @@
+.main-header .input-nav input{
+    padding: auto;
+}
+.search-page .box-serch .cancel-search-page{
+    margin-left: 0; 
+    margin-right: 10px;
+}
+.main-header .navbar .input-nav .search-icon{
+    left: 10px;
+    right: auto;
+}
+.links-nav .header-nav-menue-items .heiden-nav-item{
+    right: 0;
+}
+.hiden-links-sm{
+    border-right: 0.1px solid #ccc;
+    border-left: 0;
+}
+.footer .container .boxes .links li:hover{
+    margin-right: 10px;
+    margin-left: auto;
+}
+.left-menu_links .hiden-ul .links-input i{
+    left: 5%;
+    right: auto;
+}
+.main .container .left-menu .taps p:nth-last-child(2){
+    border-left: 1px solid var(--main-color);
+    border-right: 0;
+}
+.main .container .left-menu .taps p:nth-last-child(3){
+    border-left: 1px solid var(--main-color);
+    border-right: 0;
+}
+.car-imge-overlay-box div i{
+    margin-left: 0;
+    margin-right: 8px;
+}
+/* .feedback{
+    right: auto;
+    left: 1%;
+} */
+
